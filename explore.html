@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+  <title>EcoLife | Explore</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/cards.css">
+  <link rel="stylesheet" href="css/forms.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar">
+
+    <div class="nav-container">
+
+      <a href="index.html" class="logo">
+        Eco<span>Life</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+
+        <li>
+          <a class="active" href="explore.html">Explore</a>
+        </li>
+
+        <li>
+          <a href="tips.html">Tips</a>
+        </li>
+
+        <li>
+          <a href="impact.html">Impact</a>
+        </li>
+
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+
+      </ul>
+
+
+      <div class="nav-actions">
+
+        <button class="theme-btn" id="themeButton">
+          ◐
+        </button>
+
+        <button class="list-button" id="listButton">
+          My List
+          <span id="listCount">0</span>
+        </button>
+
+        <button class="menu-btn" id="menuButton">
+          ☰
+        </button>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
+  <main>
+
+    <section class="page-header">
+
+      <span class="small-title">
+        EXPLORE
+      </span>
+
+      <h1>
+        Better choices for everyday life
+      </h1>
+
+      <p>
+        Find simple alternatives and save the ones you want
+        to try later.
+      </p>
+
+    </section>
+
+
+    <section class="explore-section">
+
+      <div class="filter-area">
+
+        <div class="category-buttons">
+
+          <button
+            class="filter-btn active"
+            data-category="all">
+            All
+          </button>
+
+          <button
+            class="filter-btn"
+            data-category="home">
+            Home
+          </button>
+
+          <button
+            class="filter-btn"
+            data-category="personal">
+            Personal Care
+          </button>
+
+          <button
+            class="filter-btn"
+            data-category="travel">
+            Travel
+          </button>
+
+          <button
+            class="filter-btn"
+            data-category="kitchen">
+            Kitchen
+          </button>
+
+        </div>
+
+
+        <input
+          type="text"
+          id="searchInput"
+          class="search-box"
+          placeholder="Search a choice...">
+
+      </div>
+
+
+      <div
+        class="product-grid"
+        id="choiceGrid">
+      </div>
+
+    </section>
+
+
+    <section
+      class="saved-section"
+      id="savedSection">
+
+      <div class="section-heading">
+
+        <span class="small-title">
+          MY LIST
+        </span>
+
+        <h2>
+          Saved sustainable choices
+        </h2>
+
+      </div>
+
+
+      <div
+        id="savedItems"
+        class="saved-items">
+      </div>
+
+
+      <div class="saved-footer">
+
+        <strong>
+          Total saved:
+          <span id="savedTotal">0</span>
+        </strong>
+
+        <button
+          id="clearList"
+          class="btn danger">
+          Clear List
+        </button>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <div class="footer-container">
+
+      <div>
+
+        <h2 class="footer-logo">
+          EcoLife
+        </h2>
+
+        <p>
+          A student project about simple sustainable living.
+        </p>
+
+      </div>
+
+
+      <div>
+
+        <h3>
+          Pages
+        </h3>
+
+        <a href="index.html">
+          Home
+        </a>
+
+        <a href="tips.html">
+          Tips
+        </a>
+
+        <a href="impact.html">
+          Impact
+        </a>
+
+        <a href="contact.html">
+          Contact
+        </a>
+
+      </div>
+
+
+      <div>
+
+        <h3>
+          Contact
+        </h3>
+
+        <p>
+          hello@ecolife.com
+        </p>
+
+        <p>
+          Vadodara, Gujarat
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+      © 2026 EcoLife. Student Project.
+    </div>
+
+  </footer>
+
+
+  <script type="module" src="js/script.js"></script>
+
+</body>
+
+</html>
